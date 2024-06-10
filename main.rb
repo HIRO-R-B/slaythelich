@@ -1,4 +1,4 @@
-require "app/extra_keys.rb"
+require "app/extra_keys_old.rb"
 
 def row_labels(x, y, strings)
   strings.map_with_index do |str, i|
