@@ -1,9 +1,19 @@
 # Extra Keys
+Newer versions of DR will make this patch obsolete  
+Use `extra_keys.rb` or `extra_keys_old.rb` depending on which version you're on.  
+See below:
+
+# * DR v5.19 - v5.27
+Just require [`extra_keys.rb`](extra_keys.rb).  
+Check the file for the keys/names that are added or add some of your own [SDL Keycodes](https://wiki.libsdl.org/SDL2/SDLKeycodeLookup) :)  
+- Note: This only adds keybinds unlike the old `extra_keys` and some names are different
+
+# * DR v5.18 & Below
 Makes a couple of edits to inputs to add extra keys and convenient methods.
   (Shouldn't break anything, I think)
 
 ## How to?
-Put [`extra_keys.rb`](extra_keys.rb) somewhere and require it!
+Put [`extra_keys_old.rb`](extra_keys_old.rb) somewhere and require it!
 
 [`main.rb`](main.rb) shows example usage.
 
